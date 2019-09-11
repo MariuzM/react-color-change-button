@@ -8,9 +8,5 @@
   height: 100%;
   z-index: -10;
   text-align: center;
-  transition: all 500ms ease;
-}
-.button {
-  margin: 20px;
-  padding: 20px;
+  transition: all 700ms ease;
 }
