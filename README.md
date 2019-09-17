@@ -1,4 +1,4 @@
-# React Color Change Cutton
+# React Color Change Button
 
 Using Functional component with React Hooks to change color of the background.
 
