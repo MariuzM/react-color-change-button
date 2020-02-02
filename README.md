@@ -1,11 +1,16 @@
-# React Color Change Cutton
+# Color Change Button
 
-Using Functional component with React Hooks to change color of the background.
+Changes color depending on what button was clicked, also added to add your own custom `#` color
 
-# NPM Install
+### Installing
 
-`npm install` or `npm i`
+```
+npm install
+```
 
-## License
+## Built With
 
-[MIT](https://choosealicense.com/licenses/mit/)
+- As of 2020-02-03 all latest packages
+- Function components
+- Hooks
+- Material UI

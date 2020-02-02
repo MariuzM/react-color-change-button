@@ -1,21 +1,11 @@
-import React from 'react';
-import './App.css';
-import { Button, TextField } from '@material-ui/core';
+import React, { useState } from 'react'
+import { Button, TextField } from '@material-ui/core'
+import './App.css'
 
-const colorArray = [
-  '#ec7753',
-  'Lightblue',
-  'Pink',
-  'Yellow',
-  'Brown',
-  'Magenta',
-  '#536aec'
-];
+const colorArray = ['#ec7753', 'Lightblue', 'Pink', 'Yellow', 'Brown', 'Magenta', '#536aec']
 
 export default function App() {
-  const [set, setSet] = React.useState(
-    colorArray[Math.floor(Math.random() * colorArray.length)]
-  );
+  const [set, setSet] = useState(colorArray[Math.floor(Math.random() * colorArray.length)])
 
   // React.useEffect(() => {
   //   const onMouseMove = e => console.log(e);
@@ -43,13 +33,13 @@ export default function App() {
                 // ------------------------------------------------------
                 // have styles inside style, thus no need for buttonMargin and buttonStyle:
                 style={{ margin: '10px', background: c[1] }}
-                // ======================================================
+                // ========================================`==============
                 variant="contained"
                 onClick={() => setSet(c[1])}
               >
                 {c[1]}
               </Button>
-            );
+            )
           })}
         </div>
         <TextField
@@ -59,5 +49,5 @@ export default function App() {
         />
       </div>
     </>
-  );
+  )
 }
