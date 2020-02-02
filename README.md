@@ -1,4 +1,4 @@
-# React Color Change Button
+# Color Change Button
 
 Changes color depending on what button was clicked, also added to add your own custom `#` color
 
